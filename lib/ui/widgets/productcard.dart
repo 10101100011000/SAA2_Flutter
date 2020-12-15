@@ -24,12 +24,12 @@ class ProductCard extends StatelessWidget {
             style: TextStyle(fontSize: 20),
           ),
           subtitle: Text(NumberFormat.currency(
-                  locale: 'id', decimalDigits: 0, symbol: 'Rp')
+                  locale: 'id', decimalDigits: 0, symbol: 'Rp ')
               .format(int.parse(product.price))),
           leading: CircleAvatar(
               backgroundColor: Colors.white,
               backgroundImage: NetworkImage(product.image, scale: 40),
-              child: Text(product.name[0], style: TextStyle(fontSize: 20))),
+              ),
           trailing: IconButton(
             icon: Icon(Icons.remove_red_eye, color: Colors.grey),
             onPressed: () {},
