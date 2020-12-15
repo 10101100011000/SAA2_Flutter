@@ -130,7 +130,7 @@ class _AccountPageState extends State<AccountPage> {
                     radius: 80,
                     backgroundImage: NetworkImage(
                       img ??
-                          "https://firebasestorage.googleapis.com/v0/b/startapp-ece15.appspot.com/o/assets%2Fdefault-user-image.png?alt=media&token=9807934a-cf98-4433-9c22-c013e6fc1859",
+                          "https://firebasestorage.googleapis.com/v0/b/flutterpractice-b670c.appspot.com/o/default%20images%2Fdefault%20user.png?alt=media&token=1e0e45f5-0be6-44c0-b70c-00c91d166cd2",
                     ),
                   ),
                   SizedBox(
